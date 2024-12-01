@@ -1,0 +1,33 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "14d411b60a98d9795d170c2ba056df2b"
+name = "treasure"
+handle = "treasure"
+application_url = "https://magnet-freely-west-glory.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "oneunosingle.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_customers,read_script_tags,write_customers,write_script_tags,read_gdpr_data_request"
+
+[auth]
+redirect_urls = [
+  "https://magnet-freely-west-glory.trycloudflare.com/auth/callback",
+  "https://magnet-freely-west-glory.trycloudflare.com/auth/shopify/callback",
+  "https://magnet-freely-west-glory.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+[pos]
+embedded = false
