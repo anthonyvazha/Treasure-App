@@ -3,7 +3,7 @@
 client_id = "14d411b60a98d9795d170c2ba056df2b"
 name = "treasure"
 handle = "treasure"
-application_url = "https://magnet-freely-west-glory.trycloudflare.com"
+application_url = "https://stops-physicians-unix-enormous.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_customers,read_script_tags,write_customers,write_script_tags,read_gdpr_data_request"
+scopes = "read_customers,read_gdpr_data_request,read_script_tags,write_customers,write_script_tags"
 
 [auth]
 redirect_urls = [
-  "https://magnet-freely-west-glory.trycloudflare.com/auth/callback",
-  "https://magnet-freely-west-glory.trycloudflare.com/auth/shopify/callback",
-  "https://magnet-freely-west-glory.trycloudflare.com/api/auth/callback"
+  "https://stops-physicians-unix-enormous.trycloudflare.com/auth/callback",
+  "https://stops-physicians-unix-enormous.trycloudflare.com/auth/shopify/callback",
+  "https://stops-physicians-unix-enormous.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

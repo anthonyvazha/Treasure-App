@@ -1,3 +1,17 @@
-name = "treasure-extenshion"
+name = "Treasure Hunt"
 type = "theme"
+handle = "treasure-extenshion"
 
+[capabilities]
+api_access = true
+network_access = true
+block_progress = true
+
+[settings]
+type = "object"
+[[settings.fields]]
+key = "enable_analytics"
+type = "boolean"
+name = "Enable Analytics"
+description = "Track treasure hunt performance"
+default = true
