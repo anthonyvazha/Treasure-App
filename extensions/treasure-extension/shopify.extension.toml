@@ -1,6 +1,6 @@
 name = "Treasure Hunt"
 type = "theme"
-handle = "treasure-extenshion"
+handle = "treasure-extension"
 
 [capabilities]
 api_access = true

@@ -3,7 +3,7 @@
 client_id = "14d411b60a98d9795d170c2ba056df2b"
 name = "treasure"
 handle = "treasure"
-application_url = "https://stops-physicians-unix-enormous.trycloudflare.com"
+application_url = "https://lodging-throat-write-completed.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_customers,read_gdpr_data_request,read_script_tags,write_customers
 
 [auth]
 redirect_urls = [
-  "https://stops-physicians-unix-enormous.trycloudflare.com/auth/callback",
-  "https://stops-physicians-unix-enormous.trycloudflare.com/auth/shopify/callback",
-  "https://stops-physicians-unix-enormous.trycloudflare.com/api/auth/callback"
+  "https://lodging-throat-write-completed.trycloudflare.com/auth/callback",
+  "https://lodging-throat-write-completed.trycloudflare.com/auth/shopify/callback",
+  "https://lodging-throat-write-completed.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
