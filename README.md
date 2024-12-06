@@ -1,6 +1,6 @@
 
 ```
-This Markdown preserves the structure and design, using headings for clarity and code blocks for ASCII art-like visuals.
+Shopify App Structure - Treasure App 
 
 
 
